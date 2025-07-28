@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-900 leading-relaxed;
+}
+
+a {
+  @apply text-blue-600 underline hover:text-blue-800 transition;
+}
+
+.input {
+  @apply w-full px-4 py-2 border rounded-md border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md font-semibold transition;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.btn-outline {
+  @apply border border-blue-600 text-blue-600 hover:bg-blue-50;
+}
+
+.react-hot-toast {
+  @apply text-sm rounded shadow-lg;
+}
